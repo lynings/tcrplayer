@@ -14,11 +14,19 @@
     <depends>com.intellij.modules.lang</depends>
     -->
 
+    <project-components>
+        <component>
+            <implementation-class>tcrplayer.TCRPlayer</implementation-class>
+        </component>
+    </project-components>
+
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
     </extensions>
 
-    <actions>
-        <!-- Add your actions here -->
-    </actions>
+    <!--<actions>
+        <action id="Myplugin.Textboxes" class="tcrplayer.TCRPlayer" text="Hello" description="Says hello">
+            <add-to-group group-id="OtherMenu" anchor="last"/>
+        </action>
+    </actions>-->
 </idea-plugin>
