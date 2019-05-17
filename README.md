@@ -1,4 +1,4 @@
-## What is tcrplayer
+ç## What is tcrplayer
 
 ## How to Use
 
@@ -23,7 +23,8 @@
 - [x] test watch 
 - [x] test failure and successfully listener 
 - [x] notification test failure or successfully 
-- [ ] test failure then revert 
-- [ ] test successfully then commit or push
+- [x] test failure then revert 
+- [x] test successfully then commit
+- [ ] test successfully then push
 - [ ] commit configuration
 - [ ] commit message format customized

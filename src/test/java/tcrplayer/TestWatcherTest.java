@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import java.util.function.Consumer;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
@@ -51,5 +52,14 @@ public class TestWatcherTest {
         });
         // then
         verify(testSuccessConsumer).accept("success");
+    }
+
+    @Test
+    public void should_success() {
+        // given
+        assertThat(1).isEqualTo(1);
+        // when
+
+        // then
     }
 }
